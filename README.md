@@ -30,79 +30,31 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saashosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Support & Share](#support--share)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global workflow automation and orchestration market is valued between **$22.3B and $24.8B in 2025** and projected to reach approximately **$26.0B to $27.9B in 2026**, expanding at a ~10% CAGR driven by agentic AI, durable execution systems, and serverless architectures. The sector exhibits a **bifurcated, moderately fragmented** structure: hyperscalers and legacy enterprise titans (Microsoft, AWS, Google Cloud, ServiceNow) form a concentrated oligopoly capturing incumbent enterprise spend, while an innovative and fragmented layer of specialized durable-execution, AI orchestration, and developer-first startups fiercely compete across mid-market, SMB, and developer tiers.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Trigger.dev Cloud](https://trigger.dev)**  
-
-  Managed cloud platform for building and scaling durable TypeScript/Python background jobs and long-running AI agents with zero timeouts, realtime streaming, and built-in observability.
-
-
-
-- **[Inngest Cloud](https://inngest.com)**  
-
-  Serverless event-driven queue and durable workflow platform enabling multi-step functions, automatic retries, concurrency controls, and sleep/wait steps without managing infrastructure.
-
-
-
-- **[Temporal Cloud](https://temporal.io)**  
-
-  Fully managed enterprise durable execution service powering fault-tolerant, stateful distributed workflows and microservices at massive scale.
-
-
-
-- **[Hatchet Cloud](https://hatchet.run)**  
-
-  Managed high-throughput task orchestration and durable queue platform engineered for low-latency event-driven pipelines and AI agent workloads.
-
-
-
-- **[Upstash QStash](https://upstash.com)**  
-
-  Serverless HTTP-based messaging and task scheduling queue designed for edge and serverless runtimes with automatic retries, deduplication, and cron triggers.
-
-
-
-- **[AWS Step Functions](https://amazon.com)**  
-
-  Managed serverless visual workflow service orchestrating AWS Lambda functions, ECS tasks, and distributed microservices using JSON-based Amazon States Language.
-
-
-
-- **[Google Cloud Tasks & Workflows](https://google.com)**  
-
-  Fully managed distributed task queue and serverless workflow orchestration services for asynchronous HTTP/App Engine dispatch, rate limiting, and step-by-step API chaining.
-
-
-
-- **[Sidekiq Enterprise (Contributed Systems)](https://sidekiq.org)**  
-
-  Commercial enterprise tier of Ruby's flagship background job processor adding periodic cron jobs, rate limiting, unique jobs, rolling restarts, and multi-process orchestration.
-
-
-
-- **[BullMQ Pro (Taskforce.sh)](https://bullmq.io)**  
-
-  Commercial extension to BullMQ offering nested groups, observable flows, rate-limited batches, and a hosted management dashboard for Redis-backed Node.js queues.
-
-
-
-- **[Celery Cloud / CloudAMQP](https://cloudamqp.com)**  
-
-  Managed message broker (RabbitMQ/Redis) and hosted worker infrastructure tailored for scaling distributed Python Celery task queues in production.
+| Platform | Description | Starting Pricing Tier | Free Tier / Trial Limits | Company Scale (Revenue / Valuation) |
+|---|---|---|---|---|
+| **[AWS Step Functions](https://amazon.com)** | Managed serverless visual workflow service orchestrating AWS Lambda functions, ECS tasks, and distributed microservices using Amazon States Language. | $1.00 / 1M requests + $0.00001667/GB-sec (Express) or $25.00 / 1M state transitions (Standard) | **4,000 state transitions/month** permanently free (Standard Workflows only; Express excluded). | Amazon: ~$2.3T+ Market Cap / AWS: ~$105B+ Annual Revenue Run Rate |
+| **[Google Cloud Tasks & Workflows](https://google.com)** | Fully managed distributed task queue and serverless workflow orchestration services for asynchronous HTTP dispatch and step chaining. | Cloud Tasks: $0.40 / 1M operations; Workflows: $0.01 / 1,000 internal steps & $0.02 / 1,000 external steps | **1,000,000 operations/month** free (Tasks); **5,000 internal & 2,000 external steps/month** free (Workflows). | Alphabet: ~$2.1T+ Market Cap / Google Cloud: ~$40B+ Annual Revenue Run Rate |
+| **[Temporal Cloud](https://temporal.io)** | Fully managed enterprise durable execution service powering fault-tolerant, stateful distributed workflows and microservices at massive scale. | $50.00 / 1M Actions + storage ($0.042/GB-hr active, $0.00042/GB-hr retained); Base plan commitments from $100–$500/month | **$150 one-time trial credits** included for evaluation upon cloud signup (Core engine is 100% free open-source self-hosted). | Valuation: **$12.55B** (Series E) / Revenue: **$250M+ ARR** |
+| **[Inngest Cloud](https://inngest.com)** | Serverless event-driven queue and durable workflow platform enabling multi-step functions, automatic retries, and sleep/wait steps. | Pro plan starts at **$99 / month** (includes 1M executions, 50 concurrent steps, 7-day retention) | **50,000 executions/month** free forever (5 concurrent steps, 3 workers, 5 seats, 24-hr history). Hard limit cutoff on exhaustion. | Valuation: ~$100M–$250M est. / Funding: **$34M** raised (Series A) / Revenue: ~$1M–$10M ARR |
+| **[Celery Cloud / CloudAMQP](https://cloudamqp.com)** | Managed message broker (RabbitMQ/LavinMQ/Redis) and hosted infrastructure tailored for scaling distributed Celery task queues. | Paid plans start at **$9.90 / month** (shared instances) and **$99 / month** (dedicated clusters) | **Little Lemur plan: Free forever**; includes **1,000,000 messages/month**, 20 concurrent connections, and up to 100 queues. | Parent company 84codes: **~$30.5M ARR** (306 MSEK) / Bootstrapped & profitable (no public valuation) |
+| **[Trigger.dev Cloud](https://trigger.dev)** | Managed cloud platform for building and scaling durable TypeScript/Python background jobs and AI agents with zero timeouts and live streaming. | Hobby plan starts at **$10 / month** (includes $10 compute credits, 50 concurrent runs); Pro tier at **$50 / month** | **$5.00/month compute credits free forever**; includes up to 20 concurrent runs, 10 schedules, 5 team members, and 1-day log retention. | Funding: **$19M** raised (Series A) / Valuation: Private / Revenue: Early-stage developer tool |
+| **[Upstash QStash](https://upstash.com)** | Serverless HTTP-based messaging and task scheduling queue designed for edge and serverless runtimes with automatic retries and deduping. | Pay-as-You-Go starts at **$1.00 per 100,000 messages** (Fixed Pro plans start at $180 / month) | **1,000 messages/day free forever**; includes up to 10 active schedules, 1 MB max payload, and 3-day DLQ retention. | Funding: **$11.9M** raised (Series A led by a16z) / Valuation: Private / Revenue: **$1M+ ARR** |
+| **[Hatchet Cloud](https://hatchet.run)** | Managed high-throughput task orchestration and durable queue platform engineered for low-latency event-driven pipelines and AI agents. | Pay-as-You-Go starts at **$30.00 / 1M additional task runs** + $5.00 / 1M events + $0.10 / GB stream | **1,000,000 task runs/month & 1,000,000 events/month free forever**; includes up to 100 workers, 10 tenants, 50 users, and 7-day retention. | Funding: **$5.7M** raised (YC W24 seed) / Valuation: Private / Revenue: Early-stage developer tool |
+| **[Sidekiq Enterprise (Contributed Systems)](https://sidekiq.org)** | Commercial enterprise tier of Ruby's background job processor adding cron jobs, rate limiting, unique jobs, and multi-process orchestration. | Sidekiq Pro starts at **$99 / month** ($995/yr flat); Enterprise starts at **$269 / month** (per 100 worker threads) | **No free tier; 30-day money-back guarantee** refund trial period to evaluate in staging/production (OSS version is 100% free). | Revenue: **~$2.9M ARR** / Sole-proprietorship LLC (Bootstrapped by Mike Perham, no VC valuation) |
+| **[BullMQ Pro (Taskforce.sh)](https://bullmq.io)** | Commercial extension to BullMQ offering nested groups, observable flows, rate-limited batches, and a hosted Redis queue dashboard. | Starter starts at **$19.95 / month** (1 Redis connection); Growing at **$49.95 / month** (5 connections); Enterprise at **$99.95 / month** | **15-day free trial** with full platform access (no credit card required); Core BullMQ is 100% free open source. | Bootstrapped indie developer tooling company (BullForce Labs AB / Taskforce.sh); private revenue & valuation |
 
 
 
