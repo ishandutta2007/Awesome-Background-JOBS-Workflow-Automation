@@ -32,7 +32,7 @@ Modern asynchronous architectures demand resilient orchestration: scheduling per
 - [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
 - [💻 Open-Source GitHub Projects](#-open-source-github-projects)
-  - [🏆 High-Star Repositories Ranked by GitHub Stars](#-top-open-source-projects-ranked-by-stars)
+  - [🏆 High-Star Repositories Ranked by GitHub_Stars](#-top-open-source-projects-ranked-by-stars)
 - [🛠️ Architectural Selection Guide](#️-architectural-selection-guide)
 - [🤝 How to Contribute](#-how-to-contribute)
 - [💖 Support & Sponsorship](#-support--sponsorship)
@@ -74,75 +74,75 @@ The industry demonstrates a **bifurcated, moderately fragmented** dynamic:
 
 ### 🏆 Top Open-Source Projects Ranked by Stars
 
-*All open-source tools below are strictly sorted in descending order of GitHub stargazers. Click any star badge to view stargazers.*
+*All open-source tools below are strictly sorted in descending order of GitHub stargazers. Click any Stars_Badge to view stargazers.*
 
-1. **[n8n](https://github.com/n8n-io/n8n)** [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) 🌟  
+1. **[n8n](https://github.com/n8n-io/n8n)** [![GitHub_Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) 🌟  
    *Fair-code licensed visual workflow automation platform connecting 400+ nodes, webhooks, and AI agent reasoning chains with self-hosting support.*
 
-2. **[Apache Airflow](https://github.com/apache/airflow)** [![GitHub stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers) 🌟  
+2. **[Apache Airflow](https://github.com/apache/airflow)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers) 🌟  
    *Industry-standard open-source platform to programmatically author, schedule, and monitor complex batch data pipelines and directed acyclic graphs (DAGs) in Python.*
 
-3. **[Kestra](https://github.com/kestra-io/kestra)** [![GitHub stars](https://img.shields.io/github/stars/kestra-io/kestra?style=social&color=white)](https://github.com/kestra-io/kestra/stargazers) 🌟  
+3. **[Kestra](https://github.com/kestra-io/kestra)** [![GitHub_Stars](https://img.shields.io/github/stars/kestra-io/kestra?style=social&color=white)](https://github.com/kestra-io/kestra/stargazers) 🌟  
    *Modern, declarative, language-agnostic event-driven orchestrator built on Kafka and Elasticsearch/Postgres that runs scheduled, event-based, and data/AI workflows via YAML.*
 
-4. **[Celery](https://github.com/celery/celery)** [![GitHub stars](https://img.shields.io/github/stars/celery/celery?style=social&color=white)](https://github.com/celery/celery/stargazers) 🌟  
+4. **[Celery](https://github.com/celery/celery)** [![GitHub_Stars](https://img.shields.io/github/stars/celery/celery?style=social&color=white)](https://github.com/celery/celery/stargazers) 🌟  
    *The de facto Python distributed task queue framework supporting real-time processing, periodic cron execution (Celery Beat), and RabbitMQ/Redis brokers.*
 
-5. **[Temporal](https://github.com/temporalio/temporal)** [![GitHub stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers) 🌟  
+5. **[Temporal](https://github.com/temporalio/temporal)** [![GitHub_Stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers) 🌟  
    *The open-source benchmark for durable execution; persists workflow state across crashes, network partitions, and host failures with SDKs in Go, TypeScript, Python, Java, and .NET.*
 
-6. **[Prefect](https://github.com/prefecthq/prefect)** [![GitHub stars](https://img.shields.io/github/stars/prefecthq/prefect?style=social&color=white)](https://github.com/prefecthq/prefect/stargazers) 🌟  
+6. **[Prefect](https://github.com/prefecthq/prefect)** [![GitHub_Stars](https://img.shields.io/github/stars/prefecthq/prefect?style=social&color=white)](https://github.com/prefecthq/prefect/stargazers) 🌟  
    *Modern Python workflow orchestration and observability framework turning standard Python functions into resilient, observable background task pipelines with dynamic DAGs.*
 
-7. **[Windmill](https://github.com/windmill-labs/windmill)** [![GitHub stars](https://img.shields.io/github/stars/windmill-labs/windmill?style=social&color=white)](https://github.com/windmill-labs/windmill/stargazers) 🌟  
+7. **[Windmill](https://github.com/windmill-labs/windmill)** [![GitHub_Stars](https://img.shields.io/github/stars/windmill-labs/windmill?style=social&color=white)](https://github.com/windmill-labs/windmill/stargazers) 🌟  
    *Fast, open-source developer platform and runtime that turns Python, TypeScript, Go, Bash, and SQL scripts into scheduled cron jobs, background tasks, and interactive internal apps.*
 
-8. **[Trigger.dev](https://github.com/triggerdotdev/trigger.dev)** [![GitHub stars](https://img.shields.io/github/stars/triggerdotdev/trigger.dev?style=social&color=white)](https://github.com/triggerdotdev/trigger.dev/stargazers) 🌟  
+8. **[Trigger.dev](https://github.com/triggerdotdev/trigger.dev)** [![GitHub_Stars](https://img.shields.io/github/stars/triggerdotdev/trigger.dev?style=social&color=white)](https://github.com/triggerdotdev/trigger.dev/stargazers) 🌟  
    *Open-source developer-first platform for durable TypeScript and Python background tasks, cron workflows, webhooks, and long-running AI agent steps with live log streaming.*
 
-9. **[Dagster](https://github.com/dagster-io/dagster)** [![GitHub stars](https://img.shields.io/github/stars/dagster-io/dagster?style=social&color=white)](https://github.com/dagster-io/dagster/stargazers) 🌟  
+9. **[Dagster](https://github.com/dagster-io/dagster)** [![GitHub_Stars](https://img.shields.io/github/stars/dagster-io/dagster?style=social&color=white)](https://github.com/dagster-io/dagster/stargazers) 🌟  
    *Cloud-native asset-based orchestrator designed for data and ML pipelines with rich local development, automated lineage tracking, and declarative scheduling.*
 
-10. **[Asynq](https://github.com/hibiken/asynq)** [![GitHub stars](https://img.shields.io/github/stars/hibiken/asynq?style=social&color=white)](https://github.com/hibiken/asynq/stargazers) 🌟  
+10. **[Asynq](https://github.com/hibiken/asynq)** [![GitHub_Stars](https://img.shields.io/github/stars/hibiken/asynq?style=social&color=white)](https://github.com/hibiken/asynq/stargazers) 🌟  
     *Simple, reliable, and efficient distributed task queue in Go backed by Redis featuring priority queues, retries, weighted scheduling, and terminal web UI monitoring.*
 
-11. **[Sidekiq](https://github.com/mperham/sidekiq)** [![GitHub stars](https://img.shields.io/github/stars/mperham/sidekiq?style=social&color=white)](https://github.com/mperham/sidekiq/stargazers) 🌟  
+11. **[Sidekiq](https://github.com/mperham/sidekiq)** [![GitHub_Stars](https://img.shields.io/github/stars/mperham/sidekiq?style=social&color=white)](https://github.com/mperham/sidekiq/stargazers) 🌟  
     *High-performance, multi-threaded open-source background job framework for Ruby backed by Redis with atomic retries, scheduled jobs, and a web UI dashboard.*
 
-12. **[RQ (Redis Queue)](https://github.com/rq/rq)** [![GitHub stars](https://img.shields.io/github/stars/rq/rq?style=social&color=white)](https://github.com/rq/rq/stargazers) 🌟  
+12. **[RQ (Redis Queue)](https://github.com/rq/rq)** [![GitHub_Stars](https://img.shields.io/github/stars/rq/rq?style=social&color=white)](https://github.com/rq/rq/stargazers) 🌟  
     *Simple, lightweight Python library for queueing jobs and processing them in the background with worker processes backed by Redis.*
 
-13. **[Hangfire](https://github.com/HangfireIO/Hangfire)** [![GitHub stars](https://img.shields.io/github/stars/HangfireIO/Hangfire?style=social&color=white)](https://github.com/HangfireIO/Hangfire/stargazers) 🌟  
+13. **[Hangfire](https://github.com/HangfireIO/Hangfire)** [![GitHub_Stars](https://img.shields.io/github/stars/HangfireIO/Hangfire?style=social&color=white)](https://github.com/HangfireIO/Hangfire/stargazers) 🌟  
     *Comprehensive background job framework for .NET and .NET Core applications backed by SQL Server, PostgreSQL, or Redis with persistent scheduling and built-in dashboard.*
 
-14. **[BullMQ](https://github.com/taskforcesh/bullmq)** [![GitHub stars](https://img.shields.io/github/stars/taskforcesh/bullmq?style=social&color=white)](https://github.com/taskforcesh/bullmq/stargazers) 🌟  
+14. **[BullMQ](https://github.com/taskforcesh/bullmq)** [![GitHub_Stars](https://img.shields.io/github/stars/taskforcesh/bullmq?style=social&color=white)](https://github.com/taskforcesh/bullmq/stargazers) 🌟  
     *Ultra-fast, reliable message queue and batch job processing system for Node.js and TypeScript built on Redis with parent-child flows, repeatable jobs, and rate limits.*
 
-15. **[Hatchet](https://github.com/hatchet-dev/hatchet)** [![GitHub stars](https://img.shields.io/github/stars/hatchet-dev/hatchet?style=social&color=white)](https://github.com/hatchet-dev/hatchet/stargazers) 🌟  
+15. **[Hatchet](https://github.com/hatchet-dev/hatchet)** [![GitHub_Stars](https://img.shields.io/github/stars/hatchet-dev/hatchet?style=social&color=white)](https://github.com/hatchet-dev/hatchet/stargazers) 🌟  
     *High-throughput Postgres-backed task queue and workflow engine written in Go; built specifically for low-latency task execution, DAGs, and AI agent workloads.*
 
-16. **[Inngest](https://github.com/inngest/inngest)** [![GitHub stars](https://img.shields.io/github/stars/inngest/inngest?style=social&color=white)](https://github.com/inngest/inngest/stargazers) 🌟  
+16. **[Inngest](https://github.com/inngest/inngest)** [![GitHub_Stars](https://img.shields.io/github/stars/inngest/inngest?style=social&color=white)](https://github.com/inngest/inngest/stargazers) 🌟  
     *Event-driven durable execution engine and local dev server allowing developers to write resilient multi-step workflows and fan-out jobs natively in code.*
 
-17. **[River](https://github.com/riverqueue/river)** [![GitHub stars](https://img.shields.io/github/stars/riverqueue/river?style=social&color=white)](https://github.com/riverqueue/river/stargazers) 🌟  
+17. **[River](https://github.com/riverqueue/river)** [![GitHub_Stars](https://img.shields.io/github/stars/riverqueue/river?style=social&color=white)](https://github.com/riverqueue/river/stargazers) 🌟  
     *Fast, transactional job queue for Go and PostgreSQL enabling atomic job enqueueing inside the exact same database transaction as application business mutations.*
 
-18. **[Oban](https://github.com/sorentwo/oban)** [![GitHub stars](https://img.shields.io/github/stars/sorentwo/oban?style=social&color=white)](https://github.com/sorentwo/oban/stargazers) 🌟  
+18. **[Oban](https://github.com/sorentwo/oban)** [![GitHub_Stars](https://img.shields.io/github/stars/sorentwo/oban?style=social&color=white)](https://github.com/sorentwo/oban/stargazers) 🌟  
     *Robust, transactional background job processing framework for Elixir built on PostgreSQL with telemetry, job pruning, cron plugins, and unique jobs.*
 
-19. **[Restate](https://github.com/restatedev/restate)** [![GitHub stars](https://img.shields.io/github/stars/restatedev/restate?style=social&color=white)](https://github.com/restatedev/restate/stargazers) 🌟  
+19. **[Restate](https://github.com/restatedev/restate)** [![GitHub_Stars](https://img.shields.io/github/stars/restatedev/restate?style=social&color=white)](https://github.com/restatedev/restate/stargazers) 🌟  
     *Modern Rust-based durable execution engine combining distributed workflows, virtual stateful actors, and resilient RPC/Kafka event processing in a single self-contained binary.*
 
-20. **[Graphile Worker](https://github.com/graphile/worker)** [![GitHub stars](https://img.shields.io/github/stars/graphile/worker?style=social&color=white)](https://github.com/graphile/worker/stargazers) 🌟  
+20. **[Graphile Worker](https://github.com/graphile/worker)** [![GitHub_Stars](https://img.shields.io/github/stars/graphile/worker?style=social&color=white)](https://github.com/graphile/worker/stargazers) 🌟  
     *High-performance job queue for PostgreSQL and Node.js using `LISTEN/NOTIFY` and `SKIP LOCKED` for minimal task latency and zero additional broker overhead.*
 
-21. **[Dramatiq](https://github.com/Bogdanp/dramatiq)** [![GitHub stars](https://img.shields.io/github/stars/Bogdanp/dramatiq?style=social&color=white)](https://github.com/Bogdanp/dramatiq/stargazers) 🌟  
+21. **[Dramatiq](https://github.com/Bogdanp/dramatiq)** [![GitHub_Stars](https://img.shields.io/github/stars/Bogdanp/dramatiq?style=social&color=white)](https://github.com/Bogdanp/dramatiq/stargazers) 🌟  
     *Fast, reliable alternative to Celery for Python focusing on simplicity, message reliability, thread/process concurrency, and Redis/RabbitMQ support.*
 
-22. **[Taskiq](https://github.com/taskiq-python/taskiq)** [![GitHub stars](https://img.shields.io/github/stars/taskiq-python/taskiq?style=social&color=white)](https://github.com/taskiq-python/taskiq/stargazers) 🌟  
+22. **[Taskiq](https://github.com/taskiq-python/taskiq)** [![GitHub_Stars](https://img.shields.io/github/stars/taskiq-python/taskiq?style=social&color=white)](https://github.com/taskiq-python/taskiq/stargazers) 🌟  
     *Asynchronous distributed task queue for Python designed for `asyncio` with native integrations for FastAPI, Aio-pika, Redis, and ZeroMQ brokers.*
 
-23. **[DBOS Transact](https://github.com/dbos-inc/dbos-transact-py)** [![GitHub stars](https://img.shields.io/github/stars/dbos-inc/dbos-transact-py?style=social&color=white)](https://github.com/dbos-inc/dbos-transact-py/stargazers) 🌟  
+23. **[DBOS Transact](https://github.com/dbos-inc/dbos-transact-py)** [![GitHub_Stars](https://img.shields.io/github/stars/dbos-inc/dbos-transact-py?style=social&color=white)](https://github.com/dbos-inc/dbos-transact-py/stargazers) 🌟  
     *Ultra-lightweight durable workflow and queue library for Python and TypeScript built directly on PostgreSQL, requiring no external orchestrator server.*
 
 ---
@@ -165,7 +165,7 @@ Contributions are warmly welcome! Help keep this curated list comprehensive, acc
 
 1. 🍴 **Fork the repository** to your own GitHub account.
 2. 🌿 **Create a descriptive feature branch** (`git checkout -b add-new-workflow-tool`).
-3. 📝 **Add your entry** following the existing table or list format (include project name, official links, concise description, and star badge).
+3. 📝 **Add your entry** following the existing table or list format (include project name, official links, concise description, and Stars_Badge).
 4. 🧪 **Verify link formatting** and ensure descriptions remain objective and factual.
 5. 🚀 **Submit a Pull Request** with a clear explanation of why the tool should be added.
 
