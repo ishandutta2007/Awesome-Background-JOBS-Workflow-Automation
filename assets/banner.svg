@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#080c14" />
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.6" />
+    </linearGradient>
+
+    <!-- Glowing Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.4" />
+      <circle cx="40" cy="40" r="1.5" fill="#475569" fill-opacity="0.5" />
+    </pattern>
+
+    <!-- Keyframe Animations -->
+    <style>
+      .node-pulse {
+        animation: pulse 3s ease-in-out infinite alternate;
+      }
+      .node-pulse-2 {
+        animation: pulse 4s ease-in-out infinite alternate-reverse;
+      }
+      .stream-flow {
+        stroke-dasharray: 8, 12;
+        animation: dash 20s linear infinite;
+      }
+      .stream-flow-reverse {
+        stroke-dasharray: 6, 10;
+        animation: dash-reverse 15s linear infinite;
+      }
+      .orb-float-1 {
+        animation: floatOne 10s ease-in-out infinite alternate;
+      }
+      .orb-float-2 {
+        animation: floatTwo 12s ease-in-out infinite alternate;
+      }
+      .card-hover {
+        transition: transform 0.3s ease;
+      }
+      @keyframes dash {
+        to {
+          stroke-dashoffset: -1000;
+        }
+      }
+      @keyframes dash-reverse {
+        to {
+          stroke-dashoffset: 1000;
+        }
+      }
+      @keyframes pulse {
+        0% { transform: scale(0.98); opacity: 0.6; }
+        100% { transform: scale(1.02); opacity: 1; }
+      }
+      @keyframes floatOne {
+        0% { transform: translate(0px, 0px); }
+        100% { transform: translate(30px, -20px); }
+      }
+      @keyframes floatTwo {
+        0% { transform: translate(0px, 0px); }
+        100% { transform: translate(-25px, 25px); }
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="400" fill="url(#bgGrad)" />
+
+  <!-- Animated Glowing Background Orbs -->
+  <g class="orb-float-1">
+    <circle cx="200" cy="80" r="160" fill="#3b82f6" fill-opacity="0.12" filter="url(#glow)" />
+  </g>
+  <g class="orb-float-2">
+    <circle cx="1020" cy="320" r="180" fill="#8b5cf6" fill-opacity="0.15" filter="url(#glow)" />
+    <circle cx="600" cy="200" r="220" fill="#06b6d4" fill-opacity="0.08" filter="url(#glow)" />
+  </g>
+
+  <!-- High-Tech Tech Grid Pattern -->
+  <rect width="1200" height="400" fill="url(#grid)" />
+
+  <!-- Dynamic Workflow & Distributed Queue Pipelines (Background Visual Layer) -->
+  <g opacity="0.65">
+    <!-- Workflow Path 1 -->
+    <path d="M -50 120 Q 250 40 450 140 T 850 100 T 1250 160" fill="none" stroke="url(#primaryGrad)" stroke-width="2.5" class="stream-flow" />
+    
+    <!-- Workflow Path 2 -->
+    <path d="M -50 310 Q 300 380 600 280 T 1000 320 T 1250 250" fill="none" stroke="url(#accentGrad2)" stroke-width="2" class="stream-flow-reverse" />
+    
+    <!-- Workflow Path 3 (Interconnecting Bridge) -->
+    <path d="M 180 350 L 320 280 L 520 330 L 750 260 L 980 340" fill="none" stroke="#6366f1" stroke-width="1.5" stroke-dasharray="4, 6" opacity="0.4" />
+
+    <!-- Animated Status Nodes -->
+    <circle cx="320" cy="280" r="5" fill="#38bdf8" filter="url(#subtleGlow)" />
+    <circle cx="520" cy="330" r="6" fill="#818cf8" filter="url(#subtleGlow)" />
+    <circle cx="750" cy="260" r="5" fill="#34d399" filter="url(#subtleGlow)" />
+    <circle cx="980" cy="340" r="5" fill="#f43f5e" filter="url(#subtleGlow)" />
+  </g>
+
+  <!-- Foreground Aesthetic Cards (Engineered cleanly so Title/Subtitle are in clear unobstructed foreground) -->
+  <!-- Top Center Glow Behind Title -->
+  <radialGradient id="titleSpotlight" cx="50%" cy="40%" r="50%">
+    <stop offset="0%" stop-color="#0f172a" stop-opacity="0.9" />
+    <stop offset="100%" stop-color="#0f172a" stop-opacity="0" />
+  </radialGradient>
+  <rect x="150" y="30" width="900" height="240" fill="url(#titleSpotlight)" rx="20" />
+
+  <!-- Main Hero Branding (Title & Subtitle in Sharp Foreground) -->
+  <g id="brand-header" text-anchor="middle">
+    <!-- Category Pill Badge -->
+    <rect x="440" y="38" width="320" height="30" rx="15" fill="#1e293b" stroke="#3b82f6" stroke-width="1.2" opacity="0.95" />
+    <circle cx="458" cy="53" r="4" fill="#10b981" />
+    <text x="605" y="59" fill="#93c5fd" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">CURATED ECOSYSTEM • 2026</text>
+
+    <!-- Master Title -->
+    <text x="600" y="128" fill="url(#primaryGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="900" letter-spacing="-0.5" filter="url(#subtleGlow)">
+      Awesome Background Jobs
+    </text>
+    <text x="600" y="174" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="0.2">
+      &amp; Workflow Automation
+    </text>
+
+    <!-- Subtitle / Tagline -->
+    <text x="600" y="214" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" letter-spacing="0.4">
+      Durable Execution • Distributed Task Queues • AI Agent Orchestration • Cron Workflows
+    </text>
+  </g>
+
+  <!-- Interactive/Dynamic Ecosystem Feature Badges (Bottom Row) -->
+  <g id="feature-pills" transform="translate(140, 260)">
+    <!-- Pill 1: Durable Execution -->
+    <g transform="translate(0, 0)">
+      <rect width="210" height="54" rx="12" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.6" />
+      <circle cx="28" cy="27" r="10" fill="#0284c7" fill-opacity="0.3" />
+      <text x="28" y="31" fill="#38bdf8" font-size="12" font-family="monospace" text-anchor="middle">⚡</text>
+      <text x="48" y="25" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">Durable Execution</text>
+      <text x="48" y="42" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5">Temporal • Inngest • Restate</text>
+    </g>
+
+    <!-- Pill 2: Distributed Queues -->
+    <g transform="translate(235, 0)">
+      <rect width="210" height="54" rx="12" fill="url(#cardGrad)" stroke="#818cf8" stroke-width="1.2" stroke-opacity="0.6" />
+      <circle cx="28" cy="27" r="10" fill="#4f46e5" fill-opacity="0.3" />
+      <text x="28" y="31" fill="#818cf8" font-size="12" font-family="monospace" text-anchor="middle">📦</text>
+      <text x="48" y="25" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">Task Queues</text>
+      <text x="48" y="42" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5">Celery • BullMQ • Sidekiq</text>
+    </g>
+
+    <!-- Pill 3: Workflow Engines -->
+    <g transform="translate(470, 0)">
+      <rect width="210" height="54" rx="12" fill="url(#cardGrad)" stroke="#c084fc" stroke-width="1.2" stroke-opacity="0.6" />
+      <circle cx="28" cy="27" r="10" fill="#9333ea" fill-opacity="0.3" />
+      <text x="28" y="31" fill="#c084fc" font-size="12" font-family="monospace" text-anchor="middle">🔄</text>
+      <text x="48" y="25" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">Workflow Engines</text>
+      <text x="48" y="42" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5">Airflow • Prefect • Kestra</text>
+    </g>
+
+    <!-- Pill 4: AI & Event-Driven -->
+    <g transform="translate(705, 0)">
+      <rect width="210" height="54" rx="12" fill="url(#cardGrad)" stroke="#34d399" stroke-width="1.2" stroke-opacity="0.6" />
+      <circle cx="28" cy="27" r="10" fill="#059669" fill-opacity="0.3" />
+      <text x="28" y="31" fill="#34d399" font-size="12" font-family="monospace" text-anchor="middle">🤖</text>
+      <text x="48" y="25" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">AI Orchestration</text>
+      <text x="48" y="42" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5">Trigger.dev • Hatchet • Windmill</text>
+    </g>
+  </g>
+
+  <!-- Bottom Accent Border -->
+  <rect x="0" y="396" width="1200" height="4" fill="url(#primaryGrad)" />
+</svg>
